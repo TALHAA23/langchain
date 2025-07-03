@@ -1,0 +1,22 @@
+{
+  "name": "langchain",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3",
+    "vite": "^7.0.0"
+  },
+  "dependencies": {
+    "@google/genai": "^1.8.0",
+    "@langchain/community": "^0.3.47",
+    "@langchain/google-genai": "^0.2.14",
+    "@supabase/supabase-js": "^2.50.3",
+    "langchain": "^0.3.29"
+  }
+}

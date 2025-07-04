@@ -1,7 +1,7 @@
-import { textSplitter } from "./lib/langchain";
+import setupChatbot from "./components/chatbot";
+import { chatGenAI } from "./lib/gen-ai";
+import { runnableSequence } from "./lib/langchain";
 import "./style.css";
-
-// textSplitter();
-document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
-  <h1>Hello</h1>
-`;
+// chatGenAI();
+// runnableSequence();
+setupChatbot(document.querySelector("#app") as HTMLDivElement);
